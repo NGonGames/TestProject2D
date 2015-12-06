@@ -228,7 +228,7 @@ GameObject:
   - 4: {fileID: 1486655930}
   - 212: {fileID: 1486655929}
   - 114: {fileID: 1486655931}
-  - 61: {fileID: 1486655932}
+  - 65: {fileID: 1486655932}
   m_Layer: 0
   m_Name: New Sprite
   m_TagString: Untagged
@@ -366,8 +366,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 306.414062
-        y: 179.242188
+        x: 300.414062
+        y: 125.242188
         width: 108
         height: 32
       isBreakpoint: 0
@@ -378,7 +378,7 @@ MonoBehaviour:
           name: MOUSE DOWN
           isSystemEvent: 1
           isGlobal: 0
-        toState: SCALE?
+        toState: Move
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -533,16 +533,15 @@ MonoBehaviour:
     StepFrame: 0
     activeStateName: 
   fsmTemplate: {fileID: 0}
---- !u!61 &1486655932
-BoxCollider2D:
+--- !u!65 &1486655932
+BoxCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1486655928}
-  m_Enabled: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: -7.4505806e-09}
+  m_IsTrigger: 0
+  m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: .159999996, y: .159999996}
+  m_Size: {x: .159999996, y: .159999996, z: .200000003}
+  m_Center: {x: 0, y: -7.4505806e-09, z: 0}
