@@ -271,7 +271,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1486655928}
   m_LocalRotation: {x: 0, y: 0, z: -.00174581376, w: .99999851}
-  m_LocalPosition: {x: -.623000026, y: .503000021, z: 0}
+  m_LocalPosition: {x: -.947000027, y: .852999985, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -378,7 +378,7 @@ MonoBehaviour:
           name: MOUSE DOWN
           isSystemEvent: 1
           isGlobal: 0
-        toState: Scale
+        toState: SCALE?
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -430,7 +430,7 @@ MonoBehaviour:
         - fixedUpdate
         paramDataPos: 00000000000000000d00000012000000170000001c00000020000000210000002200000023000000
         paramByteDataSize: 000000000d0000000500000005000000050000000400000001000000010000000100000001000000
-    - name: Scale
+    - name: SCALE?
       description: 
       colorIndex: 0
       position:
@@ -480,7 +480,7 @@ MonoBehaviour:
         fsmStringParams: []
         fsmObjectParams: []
         fsmVarParams: []
-        byteData: 000000000000000000000000010000404000000040400000000000010000
+        byteData: 00000000000000000000000001cdcccc3d00cdcccc3d0000000000010100
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
@@ -541,7 +541,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1486655928}
   m_Enabled: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: -7.4505806e-09}
   serializedVersion: 2
